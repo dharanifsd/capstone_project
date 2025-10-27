@@ -70,8 +70,7 @@ Predicted Oxygen Level (%) or Effective Oxygen Availability
 ### Suggested ML Algorithms:
 
 * Random Forest Regression
-* Gradient Boosting
-* Multiple Linear Regression
+
 * LSTM (for time-series oxygen prediction)
 
 ---
@@ -105,40 +104,7 @@ Predicted Oxygen Level (%) or Effective Oxygen Availability
 
 ---
 
-## 🚀 Installation & Setup
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/oxygen-level-prediction.git
-cd oxygen-level-prediction
-```
-
-### 2. Create and activate a virtual environment
-
-```bash
-python -m venv venv
-source venv/bin/activate  # for Linux/macOS
-venv\Scripts\activate     # for Windows
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the application
-
-```bash
-python app.py
-```
-
-### 5. Access the UI
-
-Open your browser at: `http://localhost:5000/`
-
----
 
 ## 📱 Features (UI)
 
@@ -154,16 +120,14 @@ Open your browser at: `http://localhost:5000/`
 
 * Integrate IoT-based oxygen and CO₂ sensors for live readings.
 * Implement AI-driven “Safe Travel Recommendation” system.
-* Add map visualization of O₂ zones in real time.
-* Deploy model on cloud (AWS / GCP / Azure) for scalability.
 * Include altitude sickness risk prediction for users.
 
 ---
 
 ## 👥 Team & Contributions
 
-* **Project Lead:** [Your Name]
-* **Domain:** Environmental Data Science / IoT Integration
+* **Project Lead:** Dharanidharan K
+* **Domain:** Environmental Data Science 
 * **Contributions:** ML Model, UI Design, API Integration
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
@@ -186,5 +150,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-**Developed with ❤️ by [Your Name]**
+**Developed with ❤️ by Dd
+**
 *“For a safer and more breathable tomorrow.”*
