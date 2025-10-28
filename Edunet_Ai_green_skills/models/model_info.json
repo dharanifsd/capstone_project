@@ -1,0 +1,31 @@
+{
+  "feature_columns": [
+    "Altitude",
+    "Pressure",
+    "Temperature",
+    "Humidity",
+    "WindSpeed",
+    "CO2",
+    "PM2.5",
+    "NDVI",
+    "PopulationDensity"
+  ],
+  "target_oxygen": "Oxygen Level",
+  "target_people": "Number of People",
+  "metrics_oxygen": {
+    "train_r2": 0.9848082135365731,
+    "test_r2": 0.9304153483125144,
+    "train_mae": 0.007668322575279074,
+    "test_mae": 0.015808895284109815,
+    "train_rmse": 0.010875662614001544,
+    "test_rmse": 0.020602375144295217
+  },
+  "metrics_people": {
+    "train_r2": 0.7414140819849828,
+    "test_r2": -0.0560308880975291,
+    "train_mae": 11.518732607438087,
+    "test_mae": 24.387833517938233,
+    "train_rmse": 14.75561079857606,
+    "test_rmse": 30.111169657990278
+  }
+}
